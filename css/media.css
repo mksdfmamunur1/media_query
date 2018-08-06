@@ -1,0 +1,100 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*header start*/
+.header {
+    background-color: green;
+    min-height: 40px;
+    margin-bottom: 20px;
+}
+/*header end*/
+/*banner start*/
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    min-height: 20px;
+    margin-bottom: 7px;
+    background-color: yellow;
+}
+.menu li:hover {
+    background-color: red;
+}
+.banner{
+    min-height: 150px;
+    background-color: pink;
+}
+.aside {
+    background-color: blue;
+    min-height: 150px;
+    margin-top: 10px;
+}
+/*banner end*/
+/*footer start*/
+.footer {
+    background-color: #0099cc;
+    min-height: 40px;
+    margin-top: 10px;
+}
+/*footer end*/
+ }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*header start*/
+.header {
+    background-color: blue;
+}
+/*header end*/
+/*banner start*/
+
+.menu li {
+    background-color: pink;
+}
+.banner{
+    background-color: gray;
+    margin-bottom: 20px;
+}
+.aside {
+    background-color: lightblue;
+}
+/*banner end*/
+/*footer start*/
+.footer {
+    background-color: navy;
+}
+/*footer end*/
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/*header start*/
+.header {
+    background-color: red;
+}
+/*header end*/
+/*banner start*/
+.banner{
+    background-color: skyblue;
+}
+.aside {
+    background-color: black;
+}
+/*banner end*/
+/*footer start*/
+.footer {
+    background-color: orange;
+}
+/*footer end*/
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+ }
